@@ -1,0 +1,19 @@
+{
+    "name": "heroku-vlvmtw",
+    "description": "deploy vlvmtw to heroku",
+    "keywords": [""],
+    "env": {
+        "PROTOCOL": {
+            "description": "Xray三合一协议共存：vless-ws、vmess-ws、trojan-ws ，path路径默认不填或/",
+            "value": "小白专享，切勿滥用，以免封号",
+            "required": true
+        },
+        "UUID": {
+            "description": "请输入UUID（表现为：vless-ws与vmess-ws为用户ID，trojan-ws为密码）",
+            "value": "", 
+            "required": true
+        }
+    },
+    "repository": "",
+    "stack": "container"
+}
